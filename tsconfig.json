@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2017",
+		"lib": ["dom", "es2017"],
+		"jsx": "preserve",
+		"sourceMap": false,
+		"allowJs": true,
+		"alwaysStrict": true,
+		"strict": true,
+		"removeComments": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"inlineSourceMap": false,
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noStrictGenericChecks": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": false,
+		"skipDefaultLibCheck": true,
+		"skipLibCheck": true,
+		"paths": {
+			"~/*": ["./*"]
+		}
+	},
+	"exclude": ["node_modules", "static", "lib", "config.js"]
+}
