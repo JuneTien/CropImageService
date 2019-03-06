@@ -19,7 +19,9 @@ open 'http://localhost:3002'
 ### 使用方法
 
 ```bash
-http://<CROP_HOST>/<origin_file_paht>/<size>/<example.png>
+http://<CROP_HOST>/<origin_file_path>/<size>/<example.png>
+
+eg: http://localhost:3002/origin/100x100/example.png
 ```
 
 
