@@ -62,7 +62,7 @@ app.prepare()
 
 				// 若檔案(原始尺寸)已經存在，直接從"原始尺寸"資料夾 origin 讀取檔案並裁切後回傳
 				if (fs.existsSync(`.${originFilePath}${originFileName}`)) {
-					await new Promise((resolve, reject) => {
+					await new Promise<void>((resolve, reject) => {
 						// 儲存"裁切檔案"
 						if (!fs.existsSync(`./${requiredSize}`)) {
 							mkdirp(`./${requiredSize}`, (err: any) => {
